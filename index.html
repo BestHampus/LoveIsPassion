@@ -12,17 +12,31 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #fffff;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1500&q=80');
+            background-size: cover;
+            font-family: 'Georgia', serif;
+            color: #ffffff;
             text-align: center;
         }
         header {
-            font-size: 2em;
+            font-size: 2.5em;
             margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         .quote {
             font-size: 1.5em;
-        } 
+            max-width: 800px;
+            line-height: 1.6;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .author {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-style: italic;
+        }
         audio {
             display: none;
         }
@@ -41,7 +55,7 @@
         <p>To make the journey and not fall deeply in love - well, you haven't lived a life at all.</p>
         <p>But you have to try.</p>
         <p>Because if you haven't tried, you haven't lived.</p>
-        <p>- Anthony Hopkins -</p>
+        <p class="author">- Anthony Hopkins -</p>
     </div>
     <audio autoplay>
         <source src="https://pouch.jumpshare.com/preview/2plkXxYu4NXKxe07aH8WQroy88PYPKmg2beemqqI5J7G8mrSIPECAwQ5_RwciabU94DLbNYZ98RTFRAPkq9EaMPaMf-uMAOfPL3H9d6g6LpmCj8aprrFQCIWm1sK7_8j8kNQCGsQh-2RNgWWaLVrTG6yjbN-I2pg_cnoHs_AmgI.mp3" type="audio/mpeg">
